@@ -64,7 +64,7 @@ cd ChatroomAPP && sh db.sh
 
 __You need to create the path /data/db on the root directory and then make /data & /data/db writable__
 ```
-sudo chmod 0777 /data && sudo chmod 0777 /data/db
+sudo mkdir /data /data/db && sudo chmod 0777 /data /data/db
 ```
 
 ####step4####
