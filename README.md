@@ -23,26 +23,26 @@
    1. install [node.js](https://nodejs.org/)
    2. install npm(we need it to download packages)
    3. enter the following command
-```
-npm init
-```
+    ```
+    npm init
+    ```
    4. enter the following command
-```
-npm install express
-```
+    ```
+    npm install express
+    ```
    5. enter the following command
-```
-npm install express-generator@4
-```
+    ```
+    npm install express-generator@4
+    ```
    6. download [Socket.io](http://socket.io/) (Please install the latest version)
    7. enter the following command
-```
-npm install mongodb
-```
+    ```
+    npm install mongodb
+    ```
    8. enter the following command
-```
-npm install mongoose
-```
+    ```
+    npm install mongoose
+    ```
    9. You can also goto Socket.io for some example APP [Socket.io APP](http://socket.io/get-started/)
 
 **step2**
@@ -66,12 +66,21 @@ __You need to create the path /data/db on the root directory and then make /data
 
 **step4**
 
-  *Open th server*
+  *Open the server*
 
 enter the following command
 ```
 make run
 ```
+
+**step5**
+
+  *Open Web page*
+
+Open your browser and goto http://127.0.0.1:3333/
+You can see the chatroom
+
+The history message is located at http://127.0.0.1:3333/message
 
   
 ###### This project is built by Express + MongoDB at 2015 by Po-Chih Huang.
