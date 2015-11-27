@@ -75,9 +75,7 @@ brew update
 ```
 brew install mongodb
 ```
-and create /data & /data/db and set it's priorty bits(if you install mongodb by this way, you don't need to ```
-sh db.sh
-```)
+and create /data & /data/db and set it's priorty bits, then go to step4
 
 ####step4####
 
