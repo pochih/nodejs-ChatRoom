@@ -67,6 +67,16 @@ and then enter the following command
 cd ChatroomAPP && sh db.sh
 ```
 
+__if you can't open the database, try the commands below: (for Mac OS only, for other OS, plaese see: [mongoDB](https://docs.mongodb.org/manual/installation/))__
+
+```
+brew update
+```
+```
+brew install mongodb
+```
+and create /data & /data/db and set it's priorty bits
+
 ####step4####
 
   **Open the server**
